@@ -46,14 +46,27 @@ vault write auth/approle/role/myapp token_policies="myapp" token_ttl=3h token_ma
 
 6. Récupération du RoleID
 
+```
 vault read auth/approle/role/myapp/role-id
+```
 
 7. Creation d'un SecretID
 
+```
 vault write -force auth/approle/role/myapp/secret-id
+```
 
 8. login avec le approle
 
+```
 vault write auth/approle/login role_id="85d58b05-f6f0-a5f2-78b8-73de72f3877e" secret_id="c7473027-24df-7856-f15b-f1326471f6d2"
+```
+```
+vault login <token>
+```
 
-export APP_TOKEN="token"
+9. Recupération du secret
+
+```
+vault kv get secret/myapp/db-config
+```
