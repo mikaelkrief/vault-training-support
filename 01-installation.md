@@ -1,5 +1,7 @@
  # Installation
 
+
+## Sur Linux
 ```
 apt update && apt install --yes gpg
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg >/dev/null
@@ -14,19 +16,19 @@ Vérification
 vault --help
 ```
 
-# Démmarage du serveur (en mode dev)
+## Démmarage du serveur (en mode dev)
 
 ```
 vault server -dev
 ```
 
-Connection au Vault
+## Connection au Vault
 
 ```
 export VAULT_ADDR='http://127.0.0.1:8200'
 ```
 
-Vérification du status du serveur
+## Vérification du status du serveur
 
 ```
 vault status
