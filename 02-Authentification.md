@@ -1,11 +1,11 @@
 # Authentifixation
 
-## authentification avec token root
+## Authentification avec token root
 ```
 export VAULT_TOKEN="root"
 ```
 
-## informations sur le token en cours
+## Informations sur le token en cours
 
 ```
 vault token lookup
