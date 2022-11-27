@@ -1,8 +1,8 @@
-# gestion des secrets
+# Gestion des secrets
 
 
 
-# creer un secret
+## Créer un secret
 
 vault kv put secret/secret1 test=password
 
@@ -21,20 +21,20 @@ user.json
 }
 vault kv put secret/app1/front @user.json
 
-# lister les secrets
+# Lister les secrets
 
 vault kv list secret
 
 
 
-# creer un engine kv demo via UI
+## creer un engine kv demo via UI
 
 vault secrets list
 vault kv put demo/secret_demo test=password
 vault kv list demo
 
 
-# recuperer les details d'un secret
+## recuperer les details d'un secret
 
 vault kv get secret/secret1
 
@@ -47,7 +47,7 @@ vault kv get -format=json secret/secret1
 puis utiliser JQ
 
 
-# Ajouter une version d'un secret
+## Ajouter une version d'un secret
 
 vault kv put secret/secret1 test=password123*
 
@@ -57,10 +57,10 @@ vault kv put secret/secret1 test=password123*
 
 vault kv put secret/secret1 test=test123test*
 
-# Voir la version d'un secret
+## Voir la version d'un secret
 vault kv get --version=1 secret/secret1
 
-# supprimer la version d'un secret
+## supprimer la version d'un secret
 
 vault kv delete -versions=2 secret/secret1
 
@@ -70,6 +70,6 @@ vault kv undelete -versions=2 secret/secret1
 pour supprimer definitivement une version
 vault kv destroy -versions=2 secret/secret1
 
-# supprimer un secret
+## supprimer un secret
 
 vault kv metadata delete secret/secret1
