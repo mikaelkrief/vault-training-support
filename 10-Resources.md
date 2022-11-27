@@ -17,6 +17,8 @@ https://developer.hashicorp.com/vault/docs/release-notes
 
 - https://www.amazon.com/Running-HashiCorp-Vault-Production-McTeer-ebook/dp/B08JJLGMZ3
 
+- https://www.amazon.com/Big-Little-Book-Hashicorp-Vault-ebook/dp/B09TRN7ZL3
+
 
 
 
@@ -31,7 +33,9 @@ https://developer.hashicorp.com/vault/docs/release-notes
 ## Présentation
 - https://developer.hashicorp.com/vault/tutorials/getting-started/getting-started-intro?in=vault%2Fgetting-started 
 
-- https://mherman.org/presentations/vault/#1 
+- https://mherman.org/presentations/vault/#1
+
+- https://blog.wescale.fr/vault-cookbook 
 
 ## Téléchargement et installation
 
@@ -57,7 +61,15 @@ https://developer.hashicorp.com/vault/docs/release-notes
 
 ## Vault transit
 
-- https://github.com/jacobmammoliti/vault-transmit-demo 
+- https://github.com/jacobmammoliti/vault-transmit-demo
+
+- https://gist.github.com/arodd/b4cf8b2bc4ce1c7c8411fde5a7d900df#lab-5-encryption-as-a-service---transit-secrets-engine 
+
+## AppRoles
+
+- https://medium.com/@glen.yu/securing-your-workflow-using-approles-on-hashicorp-vault-a2662542a7c7 
+
+- https://developer.hashicorp.com/vault/tutorials/auth-methods/approle  
 
 ## HCP
 
@@ -98,7 +110,12 @@ https://developer.hashicorp.com/vault/docs/release-notes
 
 ## Terraform
 
-- https://registry.terraform.io/providers/hashicorp/vault/latest/docs 
+- https://registry.terraform.io/providers/hashicorp/vault/latest/docs
+
+
+## Outils tiers
+
+- https://github.com/gites/awesome-vault-tools 
 
 ## Preparation Vault certification
 
