@@ -2,7 +2,7 @@
 
 1. Créer un fichier myapp.hcl
 
-```hcl
+```
 path "secret/data/myapp/*" {
   capabilities = [ "read" ]
 }
