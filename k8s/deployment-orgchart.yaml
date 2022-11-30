@@ -18,7 +18,6 @@ spec:
       labels:
         app: orgchart
     spec:
-      serviceAccountName: internal-app
       containers:
         - name: orgchart
           image: jweissig/app:0.0.1
