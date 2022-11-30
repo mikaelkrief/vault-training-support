@@ -107,6 +107,8 @@ https://developer.hashicorp.com/vault/docs/release-notes
 
 - https://deepsource.io/blog/setup-vault-kubernetes/
 
+- https://developer.hashicorp.com/vault/tutorials/kubernetes/kubernetes-sidecar#set-a-secret-in-vault
+
 
 ## Terraform
 
