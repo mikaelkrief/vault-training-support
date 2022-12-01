@@ -47,7 +47,11 @@ https://developer.hashicorp.com/vault/docs/release-notes
 
 ## Videos
 
-- https://www.youtube.com/watch?v=OyL4NpM_BPA 
+- https://www.youtube.com/watch?v=OyL4NpM_BPA
+
+## Ask to expert
+
+- https://www.linkedin.com/video/event/urn:li:ugcPost:6993970775653249024/
 
 ## Labs
 
@@ -108,6 +112,11 @@ https://developer.hashicorp.com/vault/docs/release-notes
 - https://deepsource.io/blog/setup-vault-kubernetes/
 
 - https://developer.hashicorp.com/vault/tutorials/kubernetes/kubernetes-sidecar#set-a-secret-in-vault
+
+## Monitoring
+
+- https://developer.hashicorp.com/vault/tutorials/monitoring/query-audit-device-logs
+- https://developer.hashicorp.com/vault/docs/audit
 
 
 ## Terraform
