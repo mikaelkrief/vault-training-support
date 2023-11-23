@@ -4,7 +4,7 @@ Installation du binaire
 
 # Configuration
 
-1- Créer un fichier de configuration ```vautlconfig.hcl```
+1- Créer un fichier de configuration ```vautl.hcl```
 
 ```
 storage "raft" {

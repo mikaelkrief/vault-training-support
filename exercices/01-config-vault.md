@@ -2,7 +2,7 @@
 Exercice : Configuration de Vault en Raft
 
 
-Nous devons créer un fichier de configuration de Vault qui contient ces caractéristiques:
+Nous devons créer un fichier de configuration de Vault (/etc/vault.d/vault.hcl) qui contient ces caractéristiques:
 
 - Type of the Storage Backend: Integrated Storage(Raft)
 
