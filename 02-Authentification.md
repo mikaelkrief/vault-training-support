@@ -1,4 +1,4 @@
-# Authentifixation
+# Authentification
 
 ## Authentification avec token root
 ```
