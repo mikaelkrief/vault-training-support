@@ -5,7 +5,13 @@ Exercice Authentification/Policy
 1- creer un engine KV "demo" via  UI
 
 
-2- creer une policy demo (voir 06), qui peut lire les secrets KV de demo
+2- creer une policy demo (voir 06) demo.hcl, qui peut lire les secrets KV de demo
+
+path "demo/*" {
+  capabilities = ["read", "list"]
+}
+vault policy write demo demo.hcl
+
 
 3- Activer l'authentification user/pass
 
