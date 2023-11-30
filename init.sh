@@ -1,7 +1,6 @@
 echo "Creation des engines KV"
 
 vault secrets enable -path=demo -version=2 kv
-vault secrets enable -path=secret/api -version=2 kv
 
 echo "Creation des secrets"
 
