@@ -3,6 +3,6 @@ path "demo/*" {
 }
 
 
-path "secret/data/app1/api" {
+path "secret/app" {
   capabilities = ["read", "create", "update"]
 }
