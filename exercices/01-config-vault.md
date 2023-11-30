@@ -2,7 +2,7 @@
 Exercice : Configuration de Vault en Raft
 
 
-Nous devons créer un fichier de configuration de Vault (/etc/vault.d/vault.hcl) qui contient ces caractéristiques:
+1- Nous devons créer un fichier de configuration de Vault (vault.hcl) qui contient ces caractéristiques:
 
 - Type of the Storage Backend: Integrated Storage(Raft)
 
@@ -12,13 +12,20 @@ Nous devons créer un fichier de configuration de Vault (/etc/vault.d/vault.hcl)
 
 - activation de l'UI
 
-- tcp adress: 127.0.0.1:8200 , et tls désactivé
+- tcp adress: 0.0.0.0:8200 , et tls désactivé
 - api adress port : 8200
 - cluster addr port : 8201
 
 
-Puis démarrer le cluster en mode dev avec cette configuration
+2- Puis démarrer le cluster avec cette configuration
 
-Verifier la présence du fichier raft dans vault/data
+3- Verifier la présence du fichier raft dans vault/data
 
-Lancer l'UI de Vault et connectez vous avec votre token root
+4- Faire afficher le status du vault
+
+
+Que manque gt'il pour que le vault soit opérationnel ?
+
+
+Optionnel: Lancer l'UI de Vault (lien dans step2)
+
