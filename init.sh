@@ -7,7 +7,7 @@ echo "Creation des secrets"
 
 
 vault kv put demo/secret1 test=password
-vault kv put secret/api key=azerty123*
+vault kv put secret/api/apikey key=azerty123*
 
 
 
