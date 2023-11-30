@@ -17,7 +17,7 @@ vault policy write demo policies/appdev.hcl
 
 
 
-echo "Creation de l'enthent userapp avec 2 users"
+echo "Creation de l'authent userapp avec 2 users"
 
 
 vault auth enable userpass
