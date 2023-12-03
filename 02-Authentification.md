@@ -11,7 +11,7 @@ export VAULT_TOKEN="root"
 vault token lookup
 ```
 
-## Authetntification avec le cli
+## Authentification avec le cli
 
 ```
 vault login <token>
