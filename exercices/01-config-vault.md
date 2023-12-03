@@ -1,20 +1,17 @@
 
-Exercice : Configuration de Vault en Raft
+# Exercice : Configuration de Vault en Raft
 
 
 1- Nous devons créer un fichier de configuration de Vault (vault.hcl) qui contient ces caractéristiques:
 
 - Type of the Storage Backend: Integrated Storage(Raft)
-
-- Path for the data storage: ./vault/data
-
+- Path for the data storage: /vault/data
 - Node ID for this server would be: vault1
-
 - activation de l'UI
 
 - tcp adress: 0.0.0.0:8200 , et tls désactivé
-- api adress port : 8200
-- cluster addr port : 8201
+- api adress port : 8200 en 127.0.0.1
+- cluster addr port : 8201 en 127.0.0.1
 
 
 2- Puis démarrer le cluster avec cette configuration
@@ -24,7 +21,7 @@ Exercice : Configuration de Vault en Raft
 4- Faire afficher le status du vault
 
 
-Que manque gt'il pour que le vault soit opérationnel ?
+Que manque t'il pour que le vault soit opérationnel ?
 
 
 Optionnel: Lancer l'UI de Vault (lien dans step2)
