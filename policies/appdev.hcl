@@ -5,10 +5,6 @@ path "demo/*" {
 }
 
 
-path "secret/data/app1" {
-  capabilities = ["read", "create", "update"]
-}
-
 
 # Create, read, and update secrets engines
 path "sys/mounts/*"
