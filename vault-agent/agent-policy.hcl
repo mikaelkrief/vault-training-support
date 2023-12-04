@@ -1,4 +1,4 @@
-path "auth/token/create"
+path "demo/*"
 {
-  capabilities = ["update"]
+  capabilities = ["read","liste"]
 }
