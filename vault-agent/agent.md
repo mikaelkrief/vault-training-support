@@ -1,18 +1,20 @@
-1- créé la policy vault-agent (agent-policy.hcl) qui contient les policies des secrets a recuperer par l'agent
+# TP Vault Agent
+
+1- Créer la policy vault-agent (agent-policy.hcl) qui contient les policies des secrets à recuperer par l'agent
 
 vault policy write vault-agent agent-policy.hcl
 
-2- CRéé le fichier de config du vault agent vault-agant.hcl
+2- Créer le fichier de config du vault agent vault-agent.hcl
 
-3- enable the approle
+3- Activer l'authentification approle
 
 vault auth enable approle
 
-4- create the vaultagent role
+4- Créer le role du approle
 
 vault write auth/approle/role/vaultagent token_policies="vault-agent"
 
-5- Recuperation du role id et secret id
+5- Récuperation du role id et secret id
 vault read auth/approle/role/vaultagent/role-id
 
 vault write -force auth/approle/role/vaultagent/secret-id
@@ -20,8 +22,8 @@ vault write -force auth/approle/role/vaultagent/secret-id
 
 6- Ecrire le role id et secret id dans /tmp/role_id et /tmp/secret_id
 
-7- Lancer l’agent. vault agent -config=vault-agent.hcl
+7- Lancer l’agent avec la commande : vault agent -config=vault-agent.hcl
 
-8- Recuperation du token dans /tmp/token
+8- Recuperation du token généré par l'agent dans /tmp/token
 
-Authentification avec ce token 
+9- Authentification avec ce token et check des secrets dans demo/*
