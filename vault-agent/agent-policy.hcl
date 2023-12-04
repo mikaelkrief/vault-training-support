@@ -1,2 +1,4 @@
-path "auth/token/create" 
-  capabilities = update
+path "auth/token/create"
+{
+  capabilities = ["update"]
+}
