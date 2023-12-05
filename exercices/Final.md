@@ -1,12 +1,12 @@
 # TP final
 
 3 users:
-- dev
-- ops
-- approle
+ - dev
+ - ops
+ - approle
 
 2 engines KV
-- vm
+ - vm
    dev
      login/password
    prod
