@@ -20,7 +20,7 @@ oui / non
 
 4- Quelle commande permet de visualiser le status du serveur Vault
 * vault ping
-* vault status
+* vault status --
 * vault check
 * vault health
 
@@ -31,4 +31,10 @@ c) vault run -f config.hcl
 d) vault init config.hcl
 
 Réponse : b) vault server -config=config.hcl
+
+6- Quel processus permet de deverouiller le Vault lors de sont initialisation
+* Unlock
+* Init
+* Unseal --
+* Enable
   
