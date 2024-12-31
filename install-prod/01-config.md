@@ -25,11 +25,11 @@ ui = true
 2- Créer le dossier vault/data qui va contenir le backend raft
 
 ```
-mkdir -p vault/data
+mkdir -p /vault/data
 ```
 
 3- Demmarrer vault avec command
 
 ```
-vault server -config=vaultconfig.hcl
+vault server -config=vault.hcl
 ```
