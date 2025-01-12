@@ -17,7 +17,15 @@ vault policy write demo demo.hcl
 
 ```
 vault write auth/userpass/users/test password="test" policies="demo"
+
+
+ou avec un path test
+vault write auth/test/users/test1 password=test policies="demo"
 ```
+
+verification 
+
+vault read auth/test/users/test2
 
 3. S'authentifier avec cet user
 
